@@ -75,7 +75,7 @@ row2_1, row2_2, row2_3, row2_4 = st.columns((2,1,1,1))
 Location_1= [40.7900, -73.8700]
 Location_2= [40.6650, -73.7821]
 Location_3= [40.7090, -74.1805]
-zoom_level = 10
+zoom_level = 15
 midpoint = (np.average(data["lat"]), np.average(data["lon"]))
 
 with row2_1:
