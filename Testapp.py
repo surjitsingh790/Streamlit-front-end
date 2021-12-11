@@ -54,7 +54,7 @@ def map(data, lat, lon, zoom):
 row1_1, row1_2 = st.columns((2,3))
 
 with row1_1:
-    st.title("NYC Data")
+    st.title("Merged Data")
     hour_selected = st.slider("Select hours", 0, 23)
 
 with row1_2:
