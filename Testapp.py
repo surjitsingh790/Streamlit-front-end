@@ -70,7 +70,7 @@ data = data[data[DATE_TIME].dt.hour == hour_selected]
 
 # LAYING OUT THE MIDDLE SECTION OF THE APP WITH THE MAPS
 # row2_1, row2_2, row2_3, row2_4 = st.columns((2,1,1,1))
-row2_1 = st.columns((2))
+row2_1 = st.columns((2,1))
 # SETTING THE ZOOM LOCATIONS FOR THE AIRPORTS
 # la_guardia= [40.7900, -73.8700]
 # jfk = [40.6650, -73.7821]
