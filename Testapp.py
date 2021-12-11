@@ -74,7 +74,7 @@ row2_1, row2_2, row2_3, row2_4 = st.columns((2,1,1,1))
 # SETTING THE ZOOM LOCATIONS FOR THE AIRPORTS
 la_guardia= [40.7900, -73.8700]
 jfk = [40.6650, -73.7821]
-# newark = [40.7090, -74.1805]
+newark = [40.7090, -74.1805]
 zoom_level = 10
 midpoint = (np.average(data["lat"]), np.average(data["lon"]))
 
