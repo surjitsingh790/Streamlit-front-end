@@ -54,14 +54,14 @@ def map(data, lat, lon, zoom):
 row1_1, row1_2 = st.columns((2,3))
 
 with row1_1:
-    st.title("NYC Sample Data")
-    hour_selected = st.slider("Select hour of pickup", 0, 23)
+    st.title("NYC Data")
+    hour_selected = st.slider("Select hours", 0, 23)
 
 with row1_2:
     st.write(
     """
     ##
-    Examining how traffic varies over time in New York City's and at its major regional airports.
+    Examining how traffic varies over time in New York City.
     By sliding the slider on the left you can view different slices of time and explore different transportation trends.
     """)
 
@@ -75,7 +75,7 @@ row2_1, row2_2, row2_3, row2_4 = st.columns((2,1,1,1))
 la_guardia= [40.7900, -73.8700]
 jfk = [40.6650, -73.7821]
 newark = [40.7090, -74.1805]
-zoom_level = 12
+zoom_level = 10
 midpoint = (np.average(data["lat"]), np.average(data["lon"]))
 
 with row2_1:
