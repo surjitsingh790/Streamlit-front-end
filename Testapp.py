@@ -75,8 +75,8 @@ row2_1 = st.columns((2,1))
 # la_guardia= [40.7900, -73.8700]
 # jfk = [40.6650, -73.7821]
 # newark = [40.7090, -74.1805]
-# zoom_level = 10
-# midpoint = (np.average(data["lat"]), np.average(data["lon"]))
+zoom_level = 10
+midpoint = (np.average(data["lat"]), np.average(data["lon"]))
 
 with row2_1:
     st.write("**All New York City from %i:00 and %i:00**" % (hour_selected, (hour_selected + 1) % 24))
