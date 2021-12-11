@@ -107,7 +107,7 @@ chart_data = pd.DataFrame({"minute": range(60), "pickups": hist})
 
 st.write("")
 
-st.write("**Breakdown of vehicles    per minute between %i:00 and %i:00**" % (hour_selected, (hour_selected + 1) % 24))
+st.write("**Vehicles    per minute between %i:00 and %i:00**" % (hour_selected, (hour_selected + 1) % 24))
 
 st.altair_chart(alt.Chart(chart_data)
     .mark_area(
